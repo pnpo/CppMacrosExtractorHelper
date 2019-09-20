@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title test suite render with title 1`] = `
+<h1
+  className="portal-title"
+>
+  cx-web-kisckstart!
+</h1>
+`;
+
+exports[`Title test suite render without title 1`] = `
+<h1
+  className="portal-title"
+/>
+`;

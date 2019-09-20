@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils test suite sort string array asc 1`] = `
+Array [
+  Object {
+    "name": "abramson",
+  },
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "zidan",
+  },
+]
+`;
+
+exports[`utils test suite sort string array asc case sensitive 1`] = `
+Array [
+  Object {
+    "name": "abramson",
+  },
+  Object {
+    "name": "LENON",
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "zidan",
+  },
+]
+`;
+
+exports[`utils test suite sort string array defualt asc when order not defined 1`] = `
+Array [
+  Object {
+    "name": "abramson",
+  },
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "zidan",
+  },
+]
+`;
+
+exports[`utils test suite sort string array desc 1`] = `
+Array [
+  Object {
+    "name": "zidan",
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": "abramson",
+  },
+]
+`;
+
+exports[`utils test suite sort string array with empty item 1`] = `
+Array [
+  Object {
+    "name": "",
+  },
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "zidan",
+  },
+]
+`;
+
+exports[`utils test suite sort string array with integer item 1`] = `
+Array [
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": 3,
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "zidan",
+  },
+]
+`;
+
+exports[`utils test suite sort string array with undefined item 1`] = `
+Array [
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": "marley",
+  },
+  Object {
+    "name": "zidan",
+  },
+  Object {
+    "name": undefined,
+  },
+]
+`;
+
+exports[`utils test suite sort string array without property name 1`] = `
+Array [
+  Object {
+    "name": "lenon",
+  },
+  Object {
+    "name": "abramson",
+  },
+  Object {
+    "name": "zidan",
+  },
+  Object {
+    "name": "marley",
+  },
+]
+`;
+
+exports[`utils test suite sort string empty array - not sorted 1`] = `Array []`;
+
+exports[`utils test suite sort string empty array 1`] = `Array []`;

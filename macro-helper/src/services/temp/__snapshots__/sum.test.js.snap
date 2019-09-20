@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sum tests suite add with one params 1`] = `NaN`;
+
+exports[`sum tests suite add with params 1`] = `2`;
+
+exports[`sum tests suite add without params retun NaN 1`] = `NaN`;

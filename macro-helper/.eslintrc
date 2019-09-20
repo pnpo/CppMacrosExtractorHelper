@@ -1,0 +1,82 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+   
+    "parser": "babel-eslint",
+
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+  "rules": {
+    "indent": [
+      0,
+      "tab"
+    ],
+    "linebreak-style": [
+      0,
+      "windows"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "strict": [
+      "warn",
+      "global"
+    ],
+    "comma-dangle": [
+      "warn",
+      "never"
+    ],
+    "comma-style": [
+      "warn",
+      "last"
+
+    ],
+    "max-depth": [
+      "warn",
+      4
+    ],
+    "max-len": [
+      "warn",
+      180
+    ],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 3
+      }
+    ],
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "new-cap":0,
+    "camelcase": "warn",
+    "brace-style": 0,
+    "id-length": 0, // min 2
+    "object-property-newline": 0,
+    "object-curly-newline": 0,
+    "quote-props": 0,
+    "no-cond-assign": "warn",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-empty": "warn",
+    "valid-jsdoc": "warn",
+    "dot-notation": "warn",
+    "no-multi-spaces": "warn",
+    "no-sequences": "warn"
+  }
+}

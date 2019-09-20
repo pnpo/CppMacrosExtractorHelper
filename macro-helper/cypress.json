@@ -1,0 +1,8 @@
+{
+  "ignoreTestFiles": "*example_spec.js",
+    "video": true,
+    "reporterOptions": {
+      "rootSuiteTitle": "UI end to end"
+    }
+}
+  

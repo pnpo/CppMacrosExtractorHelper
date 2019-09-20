@@ -1,0 +1,36 @@
+@import '../../styles/_globals.scss';
+
+
+.root {
+
+    p {
+
+        line-height: 25px;
+    }
+
+    .main-title {
+
+        padding-bottom: 15px;
+        border-bottom: 1px solid $border-purple-30;
+
+        span {
+    
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }    
+}
+
+.info {
+
+    display: flex;
+    font-style: italic;
+    padding: 10px;
+    margin-left: 35px;
+    border-left: 6px solid $border-purple-30;
+
+    .icon {
+
+        padding-right: 15px;
+    }
+}
